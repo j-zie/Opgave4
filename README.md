@@ -5,7 +5,7 @@ Per:
 Jonathan:
 Frederik:
 
-Aflevering 
+
 Følgende afleveres på Moodle senest torsdag d. 9. december kl 18.00 som enten link til github repository eller en zip-fil indeholdende: 
 
 1.	kildekode og unit tests
