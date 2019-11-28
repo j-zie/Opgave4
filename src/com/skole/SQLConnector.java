@@ -10,7 +10,7 @@ public class SQLConnector {
         String pass = "password"; // måske er default "" for dig
 
         try {
-            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/world", user, pass);
+            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/delfinDB", user, pass);
             Statement statement = myConn.createStatement();
             System.out.println("Connection established.");
         }
