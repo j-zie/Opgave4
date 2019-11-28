@@ -2,7 +2,7 @@ Opgave 4
 Tlf nr.:
 Joakim: +45 2814 6151
 Per: 
-Jonathan:
+Jonathan: 93 60 39 92
 Frederik:
 
 
