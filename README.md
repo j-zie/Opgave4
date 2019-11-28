@@ -2,8 +2,8 @@ Opgave 4
 Tlf nr.:
 Joakim: +45 2814 6151
 Per: 
-Jonathan:
-Frederik:
+Jonathan: 93 60 39 92
+Frederik: 20 77 10 32
 
 
 Følgende afleveres på Moodle senest torsdag d. 9. december kl 18.00 som enten link til github repository eller en zip-fil indeholdende: 
