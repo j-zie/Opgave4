@@ -52,7 +52,7 @@ CREATE TABLE Resultater(
     tid varchar(30),
     dato datetime,
     stævne varchar(30),
-    konkurrenceResultat boolean
+    konkurrenceResultat boolean,
     PRIMARY KEY(disciplinID, medlemID, resultatID),
     foreign key (disciplinID) REFERENCES Disciplin(DisciplinID),
 	foreign key (medlemID) REFERENCES Medlem(MedlemID)
