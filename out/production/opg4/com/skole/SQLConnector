@@ -1,0 +1,36 @@
+package com.skole;
+
+import java.sql.*;
+    /*
+
+public class SQLConnector {
+
+        public static void main(String[] args) throws SQLException {
+
+        String user = "root";
+        String pass = "password"; // måske er default "" for dig
+
+        try {
+            // connecion works with mysql-connector lib
+            // bemærk det er navnet på din database,
+            // og ikke din model.
+            // så world fra i tirsdags her
+            Connection myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/world", user, pass);
+
+            // create statement object to query stuff
+            Statement statement = myConn.createStatement();
+
+            ResultSet query = statement.executeQuery("select * from city");
+
+            //
+            while (query.next()) {
+                System.out.println(query.getString("cityName") + ", " + query.getString("CountryCode"));
+            }
+
+        } catch (Exception exc) {
+            exc.printStackTrace();
+        }
+    }
+}
+*/
+
