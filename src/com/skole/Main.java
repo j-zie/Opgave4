@@ -7,6 +7,7 @@ public class Main {
   private static int INIT = 9;
 
   public static void main(String[] args) {
+    SQLConnector.connect();
     start();
   }
 
