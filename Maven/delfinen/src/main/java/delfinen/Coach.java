@@ -1,4 +1,4 @@
 package delfinen;
 
-public class Coach {
+public class Coach extends User {
 }

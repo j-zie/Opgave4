@@ -1,5 +1,5 @@
 package delfinen;
 
-public class President {
+public class President extends User{
     //This is a test.
 }

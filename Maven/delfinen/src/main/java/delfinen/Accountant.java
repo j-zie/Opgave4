@@ -1,5 +1,5 @@
 package delfinen;
 
-public class Accountant {
+public class Accountant extends User{
     //This is the accountant class.
 }
