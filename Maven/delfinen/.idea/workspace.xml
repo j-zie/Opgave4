@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="This is a change test">
+    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="Added President Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UQbwVrbIpAic72CWnHgAvJ02qE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -100,7 +102,63 @@
       <option name="project" value="LOCAL" />
       <updated>1575294591431</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added President Class">
+      <created>1575294880998</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575294880998</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added President Class">
+      <created>1575294939360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575294939360</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added President Class">
+      <created>1575295047006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575295047006</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Accountant and Coauch Classes">
+      <created>1575295489112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575295489112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Comments">
+      <created>1575297778200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575297778200</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DBConnector methods">
+      <created>1575298144255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1575298144255</updated>
+    </task>
+    <task id="LOCAL-00008" summary="DBConnector class and methods">
+      <created>1575298176147</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1575298176147</updated>
+    </task>
+    <task id="LOCAL-00009" summary="TODO detaljer på DBConnector.">
+      <created>1575298894690</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575298894690</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,7 +179,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="This is a change test" />
-    <option name="LAST_COMMIT_MESSAGE" value="This is a change test" />
+    <MESSAGE value="Added Accountant and Coauch Classes" />
+    <MESSAGE value="Comments" />
+    <MESSAGE value="Added President Class" />
+    <MESSAGE value="DBConnector methods" />
+    <MESSAGE value="DBConnector class and methods" />
+    <MESSAGE value="TODO detaljer på DBConnector." />
+    <option name="LAST_COMMIT_MESSAGE" value="TODO detaljer på DBConnector." />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575293956759">
