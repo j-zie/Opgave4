@@ -19,7 +19,7 @@ public class User {
         this.phone = phone;
     }
 
-    //TODO make setters update DB
+    //TODO make setters update DB, add guard clause to prevent setting variables without DB connection
     public int getRoleID() {
         return roleID;
     }
