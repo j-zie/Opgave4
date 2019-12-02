@@ -62,6 +62,3 @@ public class DBConnector {
         return rs;
     }
 }
-
-
-}
