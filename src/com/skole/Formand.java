@@ -73,7 +73,7 @@ public class Formand extends Membership {
     public void showMembers() throws SQLException {
         ArrayList<String> a = new ArrayList<>(10);
         Statement tmp = conn.createStatement();
-        ResultSet members = tmp.executeQuery("SELECT * from Resultater");
+        ResultSet members = tmp.executeQuery("SELECT * from Medlem");
 
         while(members.next()) {
             a.add(members.getString("navn"));
