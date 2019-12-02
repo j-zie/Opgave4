@@ -106,6 +106,7 @@ public class Traener extends Membership {
             System.out.printf(topAthletes.getString("navn") + " " + topAthletes.getString("efternavn") + " @ " +
             topAthletes.getString("staevneNavn") + " TIME: " + topAthletes.getTime("tid"));
             System.out.println();
+            showMenu();
         }
     }
 
