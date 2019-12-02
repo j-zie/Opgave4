@@ -25,7 +25,5 @@ abstract class Membership {
         System.out.print("> ");
         int retVal = in.nextInt();
         return retVal;
-
     }
-
 }
