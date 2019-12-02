@@ -8,8 +8,8 @@ public class Main {
   private static int INIT = 9;
   public static final String ANSI_BLUE = "\u001B[34m";
   public static void main(String[] args) {
-    System.out.println(ANSI_BLUE + "Velkommen til Albertslund svømmeklub" + ANSI_RESET);
-    System.out.println(ANSI_BLUE + "Svømning, g.. har du prøvet det? det syg nok træning " + ANSI_RESET);
+    System.out.println(ANSI_BLUE + "Velkommen til Delfinens svømmelkub halløj" + ANSI_RESET);
+    System.out.println(ANSI_BLUE + "Velkommen velkommen velkommen velkommen " + ANSI_RESET);
     start();
   }
 
