@@ -10,7 +10,7 @@ public class SQLConnector {
         String pass = "password"; // måske er default "" for dig
 
         try {
-            myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/delfinDB", user, pass);
+            myConn = DriverManager.getConnection("jdbc:mysql://localhost:3306/delfinDB?serverTimezone=UTC", user, pass);
         }
         catch (Exception exc) {
             exc.printStackTrace();
