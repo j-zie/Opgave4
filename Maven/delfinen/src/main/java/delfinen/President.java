@@ -1,5 +1,13 @@
 package delfinen;
 
 public class President extends User{
-    //This is a test.
+
+    //TODO Fetch data from DB
+    President() {
+
+    }
+
+    void createMember() {
+
+    }
 }
