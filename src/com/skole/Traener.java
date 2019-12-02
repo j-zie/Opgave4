@@ -2,9 +2,12 @@ package com.skole;
 
 import java.sql.*;
 
-//Registrer resultat
-//Vis hold
-//Vis top 5 svømmere
+/**
+ * TO DO
+ * Der er ikke hold
+ * Top fem virker, men lad skifte til database orienteret implementering
+ * registre er ikke særlig intuitiv og burde 'fail gracefully'
+ */
 public class Traener extends Membership {
 
     public Traener () {

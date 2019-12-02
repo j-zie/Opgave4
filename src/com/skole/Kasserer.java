@@ -12,6 +12,12 @@ public class Kasserer extends Membership{
         showMenu();
     }
 
+    /**
+     *  Vis resistence printer kun fornavn og er stavet forkert
+     *
+     *  Man kan ændre i kontigent, hvis man havde lyst.
+     *
+     */
     @Override
     public void showMenu() {
         int input = INIT;

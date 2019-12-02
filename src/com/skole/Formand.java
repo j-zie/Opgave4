@@ -9,6 +9,16 @@ public class Formand extends Membership {
         showMenu();
     }
 
+    /**
+     * TO DO
+     * I add member crasher den på forkert input
+     * Og der mangler hold
+     *
+     * Vis medlemmer printer kun fornavn
+     *
+     * Man kan ikke ændre bruger informationer
+     * kunne være nice
+     */
     @Override
     public void showMenu() {
         int input = INIT;
