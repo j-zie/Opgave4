@@ -47,14 +47,13 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`User` (
   `activityForm` INT NOT NULL,
   `rolleID` INT NOT NULL,
   PRIMARY KEY (`userID`, `rolleID`),
+  INDEX `rolleID_idx` (`rolleID` ASC) VISIBLE,
   CONSTRAINT `rolleID`
     FOREIGN KEY (`rolleID`)
     REFERENCES `DelfinenDB`.`Rolle` (`rolleID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
-CREATE INDEX `rolleID_idx` ON `DelfinenDB`.`User` (`rolleID` ASC) VISIBLE;
 
 
 -- -----------------------------------------------------
@@ -76,7 +75,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `DelfinenDB`.`Disciplines` ;
 
 CREATE TABLE IF NOT EXISTS `DelfinenDB`.`Disciplines` (
-  `disciplinesID` INT NOT NULL,
+  `disciplinesID` INT NOT NULL AUTO_INCREMENT,
   `discipline` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`disciplinesID`))
 ENGINE = InnoDB;
@@ -91,6 +90,7 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`UserDisciplines` (
   `userID` INT NOT NULL,
   `disciplinesID` INT NOT NULL,
   PRIMARY KEY (`userID`, `disciplinesID`),
+  INDEX `disciplinesID_idx` (`disciplinesID` ASC) VISIBLE,
   CONSTRAINT `userID`
     FOREIGN KEY (`userID`)
     REFERENCES `DelfinenDB`.`User` (`userID`)
@@ -102,8 +102,6 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`UserDisciplines` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
-CREATE INDEX `disciplinesID_idx` ON `DelfinenDB`.`UserDisciplines` (`disciplinesID` ASC) VISIBLE;
 
 
 -- -----------------------------------------------------
@@ -119,6 +117,8 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`Results` (
   `date` DATETIME NOT NULL,
   `event` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`resultsID`, `userID`, `disciplinesID`),
+  INDEX `disciplinID_idx` (`disciplinesID` ASC) VISIBLE,
+  INDEX `medlemID_idx` (`userID` ASC) VISIBLE,
   CONSTRAINT `disciplinID`
     FOREIGN KEY (`disciplinesID`)
     REFERENCES `DelfinenDB`.`Disciplines` (`disciplinesID`)
@@ -130,10 +130,6 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`Results` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
-
-CREATE INDEX `disciplinID_idx` ON `DelfinenDB`.`Results` (`disciplinesID` ASC) VISIBLE;
-
-CREATE INDEX `medlemID_idx` ON `DelfinenDB`.`Results` (`userID` ASC) VISIBLE;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
