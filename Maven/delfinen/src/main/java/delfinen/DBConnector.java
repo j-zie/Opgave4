@@ -5,8 +5,15 @@ import java.sql.*;
 public class DBConnector {
 
     //Class for connecting to DB and performing queries.
+    /*TODO
+        Vi skal bruge en metode der tjekker efter en forbindelse til DB.
+        */
 
     public static Connection conn() throws Exception {
+        /*TODO
+           Gennemses for aktualitet - Hvordan skal vi etablere forbindelsen til DB, skal vi instanciere et objekt, eller skal vi bare kalde metoden som her?
+           Måske skal dette laves i en constructor.
+           */
         try {
             String driver, url, username, password, nameDB;
             nameDB = "DelfinenDB";
@@ -26,6 +33,7 @@ public class DBConnector {
         return null;
     }
 
+    //TODO Er denne relevant?
     public static void updateSQL(String query) throws Exception {
         Statement st = null;
         try {
@@ -47,6 +55,7 @@ public class DBConnector {
         }
     }
 
+    //TODO Er denne relevant?
     public static ResultSet querySQL(String query) throws Exception {
         Statement st;
         ResultSet rs = null;

@@ -1,10 +1,10 @@
 package delfinen;
 
-/**
- * Hello world!
- *
- */
-public class App 
+public class App
+
+    /*TODO
+    *  Denne klasse kører programmet, evt. while-loop der lukkes med en boolean.*/
+
 {
     public static void main( String[] args )
     {
