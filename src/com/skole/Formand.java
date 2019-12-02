@@ -50,7 +50,7 @@ public class Formand extends Membership {
         String fname = inputPrint("Enter first name:"), lname = inputPrint("Enter last name");
         String pnumber = inputPrint("Enter phone number:"), adress = inputPrint("Enter adress");
         String email = inputPrint("Enter email:");
-        int age =  Integer.parseInt(inputPrint("Enter age:"));
+        int age = intInputPrint("Enter age:");
         boolean active = true;
         /** Push it to DB */
 
@@ -73,7 +73,7 @@ public class Formand extends Membership {
     public void showMembers() throws SQLException {
         ArrayList<String> a = new ArrayList<>(10);
         Statement tmp = conn.createStatement();
-        ResultSet members = tmp.executeQuery("SELECT * from Medlem");
+        ResultSet members = tmp.executeQuery("SELECT * from Resultater");
 
         while(members.next()) {
             a.add(members.getString("navn"));

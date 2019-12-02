@@ -49,7 +49,7 @@ public class Kasserer extends Membership{
                 "WHERE datediff(curdate(), betalingsDato) > 365.25");
         while(members.next()) {
             System.out.println(members.getString("navn") + " " + members.getString("efternavn"));
-        }
+        }   
     }
 }
 

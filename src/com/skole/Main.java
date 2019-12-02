@@ -4,10 +4,12 @@ package com.skole;
 import java.util.Scanner;
 
 public class Main {
+  private static final String ANSI_RESET ="\u001B[30m" ;
   private static int INIT = 9;
-
+  public static final String ANSI_BLUE = "\u001B[34m";
   public static void main(String[] args) {
-    SQLConnector.connect();
+    System.out.println(ANSI_BLUE + "Velkommen til Albertslund svømmeklub" + ANSI_RESET);
+    System.out.println(ANSI_BLUE + "Svømning, g.. har du prøvet det? det syg nok træning " + ANSI_RESET);
     start();
   }
 

@@ -17,6 +17,15 @@ abstract class Membership {
         System.out.print("> ");
         String retVal = in.next();
         return retVal;
+
+    }
+
+    public static int intInputPrint(String stringToPrint) {
+        System.out.println(stringToPrint);
+        System.out.print("> ");
+        int retVal = in.nextInt();
+        return retVal;
+
     }
 
 }
