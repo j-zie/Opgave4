@@ -10,7 +10,7 @@ public class Formand extends Membership {
     }
 
     /**
-     * TO DO
+     * TODO
      * I add member crasher den på forkert input
      * Og der mangler hold
      *
