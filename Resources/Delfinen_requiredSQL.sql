@@ -19,3 +19,8 @@ INSERT INTO subscription (subscriptionName,subscriptionPrice) VALUES ('Junior sv
 																	 ('Senior svoemmer','1600'),
                                                                      ('Passiv medlem','500');
 UNLOCK TABLES;
+
+UNLOCK TABLES;
+INSERT INTO activityform (activityForm) VALUES ('motionist'),
+											   ('konkurrencesvoemmer');
+UNLOCK TABLES;

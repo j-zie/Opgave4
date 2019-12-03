@@ -28,6 +28,18 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `DelfinenDB`.`ActivityForm`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `DelfinenDB`.`ActivityForm` ;
+
+CREATE TABLE IF NOT EXISTS `DelfinenDB`.`ActivityForm` (
+  `activityFormID` INT NOT NULL AUTO_INCREMENT,
+  `activityForm` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`activityFormID`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `DelfinenDB`.`User`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `DelfinenDB`.`User` ;
@@ -42,15 +54,22 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`User` (
   `email` VARCHAR(45) NOT NULL,
   `phone` INT NOT NULL,
   `age` INT NOT NULL,
+  `userDate` DATETIME NOT NULL,
   `subscription` DECIMAL(10,2) NOT NULL,
   `active` INT NOT NULL,
-  `activityForm` INT NOT NULL,
+  `activityFormID` INT NOT NULL,
   `rolleID` INT NOT NULL,
-  PRIMARY KEY (`userID`, `rolleID`),
+  PRIMARY KEY (`userID`, `activityFormID`, `rolleID`),
   INDEX `rolleID_idx` (`rolleID` ASC) VISIBLE,
+  INDEX `activityFormID_idx` (`activityFormID` ASC) VISIBLE,
   CONSTRAINT `rolleID`
     FOREIGN KEY (`rolleID`)
     REFERENCES `DelfinenDB`.`Rolle` (`rolleID`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `activityFormID`
+    FOREIGN KEY (`activityFormID`)
+    REFERENCES `DelfinenDB`.`ActivityForm` (`activityFormID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
@@ -113,7 +132,7 @@ CREATE TABLE IF NOT EXISTS `DelfinenDB`.`Results` (
   `resultsID` INT NOT NULL AUTO_INCREMENT,
   `disciplinesID` INT NOT NULL,
   `userID` INT NOT NULL,
-  `time` INT NOT NULL,
+  `time` VARCHAR(45) NOT NULL,
   `date` DATETIME NOT NULL,
   `event` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`resultsID`, `userID`, `disciplinesID`),
