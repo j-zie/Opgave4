@@ -1,10 +1,14 @@
+-- Required SQL for DelfinenDB
 USE delfinendb;
 
+-- ----------------------------------------------------------------------------------------------
+-- Insert static records to tables in `rolle`, `disciplines`, `subscription` and `activityform`
+-- ----------------------------------------------------------------------------------------------
 LOCK TABLES rolle WRITE;
 INSERT INTO rolle (rolleName) VALUES ('President'),
-									('Coach'),
-                                    ('accountant'),
-                                    ('Member');
+									 ('Coach'),
+                                     ('accountant'),
+                                     ('Member');
 UNLOCK TABLES;
 
 LOCK TABLES disciplines WRITE;
