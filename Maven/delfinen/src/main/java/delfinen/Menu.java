@@ -6,6 +6,9 @@ public class Menu {
 
     /*TODO
        Denne classe skal indeholde en switchcase som styres afhængigt af hvilken rolle, 'USER' har.
+       Menu skal vise en menu afhÊngig af hvilken "USER" der tilgår.
+       Evt.: Hver Klasse der nedavrer fra "USER" har en rolle variabel som bruges til at identificere objektet.
+       Derfra er det bare at lave menuÈn til hver rolle, seperat.
 
     */
 

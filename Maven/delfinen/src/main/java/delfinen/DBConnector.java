@@ -55,7 +55,6 @@ public class DBConnector {
         }
     }
 
-    //TODO Er denne relevant?
     public static ResultSet querySQL(String query) throws Exception {
         Statement st;
         ResultSet rs = null;
