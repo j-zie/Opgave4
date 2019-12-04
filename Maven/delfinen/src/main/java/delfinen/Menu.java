@@ -32,9 +32,9 @@ public class Menu {
 
     //TODO code menu
     private void presidentMenu(User user) {
-        System.out.println("What would you like to do?");
-        System.out.println("1: Create member");
-        System.out.println("2: Return to main menu");
+        System.out.println("Vælg noget:");
+        System.out.println("1: Opret medlem");
+        System.out.println("2: Tilbage til hovedmenuen");
 
         int choice = input.nextInt();
         switch (choice) {
@@ -49,7 +49,9 @@ public class Menu {
 
     //TODO code menu
     private void accountantMenu(User user) {
-
+        System.out.println("Vælg noget:");
+        System.out.println("1: Se medlemmer i restance");
+        System.out.println("2: Tilbage til hovedmenuen");
     }
 
     //TODO code menu
