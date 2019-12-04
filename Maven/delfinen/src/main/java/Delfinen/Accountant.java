@@ -7,4 +7,8 @@ public class Accountant extends User{
      ACCOUNTANT
      Funktion til at slÂ alle "MEMBERS" op, som er i restence.
      */
+
+    void showRestance() {
+
+    }
 }
