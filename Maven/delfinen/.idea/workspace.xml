@@ -1,35 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Accountant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/President.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/UserHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Delfinen/AppTest.java" afterDir="false" />
+    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="småting">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbactions.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Accountant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delfinen/DB/DBConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/DBQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delfinen/DB/DBQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/President.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/delfinen/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/delfinen/AppTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +25,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -61,6 +37,11 @@
   <component name="ProjectId" id="1UQbwVrbIpAic72CWnHgAvJ02qE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -75,18 +56,6 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -107,6 +76,18 @@
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,11 +173,29 @@
       <option name="project" value="LOCAL" />
       <updated>1575442968084</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;.">
+      <created>1575451233633</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1575451233633</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="SHOW_OTHER_BRANCHES" value="true" />
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -221,13 +220,22 @@
     <MESSAGE value="Added President Class" />
     <MESSAGE value="TODO's til uddelegering." />
     <MESSAGE value="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;." />
+    <MESSAGE value="småting" />
+    <option name="LAST_COMMIT_MESSAGE" value="småting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575293956759">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state x="572" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1440.920@0.0.1440.920" timestamp="1575293956759" />
+    <state x="339" y="34" key="CommitChangelistDialog2" timestamp="1575451654276">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="339" y="34" key="CommitChangelistDialog2/0.0.1440.920@0.0.1440.920" timestamp="1575451654276" />
+    <state x="137" y="74" key="DiffContextDialog" timestamp="1575451415109">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="137" y="74" key="DiffContextDialog/0.0.1440.920@0.0.1440.920" timestamp="1575451415109" />
     <state width="1397" height="242" key="GridCell.Tab.0.bottom" timestamp="1575293977893">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
@@ -244,9 +252,21 @@
       <screen x="0" y="0" width="1440" height="920" />
     </state>
     <state width="1397" height="242" key="GridCell.Tab.0.right/0.0.1440.920@0.0.1440.920" timestamp="1575293977893" />
-    <state x="530" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575294282273">
+    <state x="456" y="182" key="RollbackChangesDialog" timestamp="1575451417447">
       <screen x="0" y="0" width="1440" height="920" />
     </state>
-    <state x="530" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1575294282273" />
+    <state x="456" y="182" key="RollbackChangesDialog/0.0.1440.920@0.0.1440.920" timestamp="1575451417447" />
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2" timestamp="1575451241866">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="313" y="193" key="Vcs.Push.Dialog.v2/0.0.1440.920@0.0.1440.920" timestamp="1575451241866" />
+    <state x="530" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575451632090">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="530" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.920@0.0.1440.920" timestamp="1575451632090" />
+    <state x="515" y="360" key="git4idea.ui.GitStashDialog" timestamp="1575451300414">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="515" y="360" key="git4idea.ui.GitStashDialog/0.0.1440.920@0.0.1440.920" timestamp="1575451300414" />
   </component>
 </project>
