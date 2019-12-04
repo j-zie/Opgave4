@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="Added President Class">
+    <list default="true" id="8ef11ef0-1a68-431e-97c6-344ace8a6353" name="Default Changelist" comment="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Accountant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/President.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/UserHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Delfinen/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Delfinen/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbactions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Accountant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Accountant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delfinen/DB/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/DBQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Delfinen/DB/DBQuery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/President.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/delfinen/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/delfinen/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/delfinen/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/delfinen/AppTest.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +90,11 @@
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delfinen.App" />
+      <option name="MAIN_CLASS_NAME" value="Delfinen.App" />
       <module name="delfinen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="delfinen.*" />
+          <option name="PATTERN" value="Delfinen.DB.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,6 +120,7 @@
       <updated>1575292004140</updated>
       <workItem from="1575292009905" duration="151000" />
       <workItem from="1575292429885" duration="367000" />
+      <workItem from="1575450763825" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="This is a change test">
       <created>1575294591431</created>
@@ -158,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575298894690</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TODO's til uddelegering.">
+      <created>1575442968084</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575442968084</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,11 +215,13 @@
     <MESSAGE value="This is a change test" />
     <MESSAGE value="Added Accountant and Coauch Classes" />
     <MESSAGE value="Comments" />
-    <MESSAGE value="Added President Class" />
     <MESSAGE value="DBConnector methods" />
     <MESSAGE value="DBConnector class and methods" />
     <MESSAGE value="TODO detaljer på DBConnector." />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO detaljer på DBConnector." />
+    <MESSAGE value="Added President Class" />
+    <MESSAGE value="TODO's til uddelegering." />
+    <MESSAGE value="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdateringer til Utility.&#10;Added sub-package &quot;.DB&quot;.&#10;Renamed package &quot;delfinen&quot;-&gt;&quot;Delfinen&quot;." />
   </component>
   <component name="WindowStateProjectService">
     <state x="572" y="349" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1575293956759">

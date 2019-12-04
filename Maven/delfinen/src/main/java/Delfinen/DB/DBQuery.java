@@ -1,4 +1,6 @@
-package delfinen;
+package Delfinen.DB;
+
+import Delfinen.Member;
 
 public class DBQuery {
 

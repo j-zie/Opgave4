@@ -1,4 +1,4 @@
-package delfinen;
+package Delfinen.DB;
 
 import java.sql.*;
 

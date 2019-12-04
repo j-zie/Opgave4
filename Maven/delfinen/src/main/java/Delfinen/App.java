@@ -41,6 +41,8 @@ public class App
         Utility ut = new Utility();
         ut.intInput();
 
+        DBConnector.updateSQL(DBQuery.);
+
         /*
         President p = new President(1,02,63,"Jørgen Jørgensen","12 34 56 78");
         Scanner scan = new Scanner(System.in);

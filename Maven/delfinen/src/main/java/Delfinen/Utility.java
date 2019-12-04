@@ -5,12 +5,11 @@ import java.time.LocalDateTime;
 import java.util.Scanner;
 
 public class Utility {
-    private Scanner sc;
+    private Scanner sc = new Scanner(System.in);
 
     int intInput() {
         boolean change = false;
         int input = 0;
-        sc = new Scanner(System.in);
         while (!change) {
             try {
                 input = sc.nextInt();
@@ -26,7 +25,7 @@ public class Utility {
     boolean confirmInput() {
         boolean result = false;
         String input = "";
-        sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         while (true) {
             input = sc.next();
             if (!(input.equals("y") || input.equals("Y") || input.equals("n") || input.equals("N"))) {
